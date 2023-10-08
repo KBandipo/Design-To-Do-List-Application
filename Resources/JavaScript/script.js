@@ -37,8 +37,17 @@ function addToDo() {
 
 addButton.addEventListener("click", addToDo);
 
+// Pressing Enter to add a task
 textInput.addEventListener("keyup", (event) => {
   if (event.key === "Enter") {
     addToDo();
   }
 });
+
+const donetask = document.querySelector(".done-task");
+const checkbox = document.querySelectorAll('li input[type="checkbox"]');
+
+for (let i = 0; i < checkbox.length; i++)
+  checkbox[i].addEventListener("click", function () {
+    textInput.classList.add("donetask");
+  });
