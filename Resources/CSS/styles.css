@@ -1,3 +1,6 @@
+"use strict";
+/*******************************************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -16,4 +19,29 @@ body {
   max-width: 100%;
   background-color: #fff;
   background-image: linear-gradient(rgba(8, 127, 91, 0.589), #f8f9fa);
+}
+
+/* #087f5b  #f8f9fa #e9ecef*/
+/* CONTAINER STYLING */
+.main-container {
+  /* background-color: aquamarine; */
+  max-width: 90rem;
+  margin: 0 auto;
+  /* background-color: #9cccbd; */
+  height: 100vh;
+}
+.header-section {
+  background-color: #087f5b;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.to-do-container {
+  display: flex;
+  margin: 0 auto;
+}
+
+.to-do-inner-container {
+  display: flex;
+  gap: 2rem;
 }
