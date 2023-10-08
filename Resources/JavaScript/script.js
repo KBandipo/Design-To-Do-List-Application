@@ -32,5 +32,13 @@ function addToDo() {
   });
 
   listContainer.appendChild(taskItem);
-  textInput.value = ""; // Clear input field
+  textInput.value = "";
 }
+
+addButton.addEventListener("click", addToDo);
+
+textInput.addEventListener("keyup", (event) => {
+  if (event.key === "Enter") {
+    addToDo();
+  }
+});
