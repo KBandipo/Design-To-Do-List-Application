@@ -18,6 +18,7 @@ body {
   max-width: 100%;
   background-color: #fff;
   background-image: linear-gradient(rgba(8, 127, 91, 0.589), #f8f9fa);
+  background-size: cover;
 }
 
 /* #087f5b  #f8f9fa #e9ecef*/
@@ -89,9 +90,9 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 8px 0;
-  padding: 8px;
-  border: 1px solid #ddd;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  border: 0.1rem solid #ddd;
   background-color: #f9f9f9;
   font-size: 1.5rem;
 }
@@ -106,7 +107,7 @@ button {
   background-color: #087f5b;
   color: white;
   border: none;
-  padding: 6px 10px;
+  padding: 0.6rem 1rem;
   cursor: pointer;
 }
 
