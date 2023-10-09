@@ -1,5 +1,15 @@
 "use strict";
 import { textInput, addButton, listContainer } from "./variablesContainer.js";
+// Create Function of new task item
+function createTask(toDoText) {
+  const newTextContent = document.createElement("li");
+  newTextContent.innerHTML = `
+  <div class = "to-do-inner-container"><input type="checkbox" class="checkbox"/><span>${toDoText}</span></div>
+        <button class="delete-content">X</button>
+    `;
+
+  return newTextContent;
+}
 /****************************************************/
 
 // Create Function to add a new task
@@ -30,11 +40,3 @@ textInput.addEventListener("keyup", (event) => {
     addToDo();
   }
 });
-
-// const donetask = document.querySelector(".done-task");
-// const checkbox = document.querySelectorAll('li input[type="checkbox"]');
-
-// for (let i = 0; i < checkbox.length; i++)
-//   checkbox[i].addEventListener("click", function () {
-//     textInput.classList.add("donetask");
-//   });
