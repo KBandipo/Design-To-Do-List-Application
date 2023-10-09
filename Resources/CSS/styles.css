@@ -28,19 +28,16 @@ body {
 .main-container {
   /* background-color: aquamarine; */
   max-width: 90rem;
-  margin: 0 auto;
   /* background-color: #9cccbd; */
   height: 100vh;
 }
 .header-section {
   background-color: #087f5b;
   padding: 2rem;
-  margin: 0 auto;
 }
 
 .to-do-container {
   display: flex;
-  margin: 0 auto;
 }
 
 .to-do-inner-container {
@@ -127,4 +124,8 @@ button:hover {
 .done-task {
   text-decoration: line-through;
   opacity: 50%;
+}
+
+.set-margin {
+  margin: 0 auto;
 }
