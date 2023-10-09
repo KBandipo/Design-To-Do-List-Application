@@ -45,3 +45,84 @@ body {
   display: flex;
   gap: 2rem;
 }
+
+
+
+/* ELEMENTS STYLING */
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 3rem;
+  color: #f7f7f7;
+}
+
+.add {
+  background-color: #f7f7f7;
+  padding: 0.63rem 1.2rem;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.add:active {
+  background-color: #84bfad;
+  font-weight: bold;
+  font-style: italic;
+  color: #f9f9f9;
+}
+
+.text-input {
+  /* background-color: #f7f7f7; */
+  padding: 0.6rem 1.2rem;
+  justify-self: center;
+  align-self: center;
+  border: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 1.5rem;
+}
+li:nth-last-child(even) {
+  background-color: #f8f9fa;
+}
+li:nth-last-child(odd) {
+  background-color: #e9ecef;
+}
+
+button {
+  background-color: #087f5b;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+.heading-background {
+  max-width: 100%;
+  margin: 1rem auto;
+  background-color: #087f5b;
+}
+
+.text-input {
+  flex-grow: 1;
+}
+
+.done-task {
+  text-decoration: line-through;
+  opacity: 50%;
+}
