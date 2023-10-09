@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Resources/CSS/styles.css" />
+    <link rel="stylesheet" href="./Resources/CSS/mediaquery.css" />
+    <title>Desingn a To Do List Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="main-container set-margin">
+      <div class="heading-background">
+        <h1>To Do List Application</h1>
+      </div>
+      <div class="header-section set-margin">
+        <div class="to-do-container set-margin">
+          <input
+            type="text"
+            class="text-input"
+            id="text-input"
+            placeholder="Type your task and it to your To Do List"
+          />
+          <p id="add" class="add">Add</p>
+        </div>
+      </div>
+
+      <div class="list-container-cover set-margin">
+        <ul id="list-container" class="list-container set-margin"></ul>
+      </div>
+    </section>
+    <script type="module" src="./Resources/JavaScript/script.js"></script>
+  </body>
+</html>

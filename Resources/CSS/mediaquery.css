@@ -1,0 +1,47 @@
+@media (min-width: 80em) {
+  body {
+    background-image: linear-gradient(rgba(15, 240, 172, 0.589), #f8f9fa);
+    background-size: cover;
+  }
+  .header-section {
+    background-color: #0ff0ac;
+  }
+  /* Elements Styling */
+  h1 {
+    font-size: 4rem;
+    color: #312121;
+  }
+
+  li {
+    font-size: 1.7rem;
+  }
+  button {
+    background-color: #0ff0ac;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+  }
+  .add:active {
+    background-color: #57f5c5;
+  }
+
+  button:hover {
+    background-color: #ff0000;
+  }
+  .heading-background {
+    max-width: 100%;
+    margin: 1rem auto;
+    background-color: #0ff0ac;
+  }
+
+  li:nth-last-child(even) {
+    background-color: #f8f9fa;
+  }
+  li:nth-last-child(odd) {
+    background-color: rgba(231, 254, 247, 0.781);
+  }
+}
+
+/* @media (max-width: ) {
+} */

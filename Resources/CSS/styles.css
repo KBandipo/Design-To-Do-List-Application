@@ -1,0 +1,129 @@
+/*******************************************************************/
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 100%;
+  font-size: 65%;
+}
+body {
+  font-family: "Inter", sans-serif;
+  /* color: #343a40; */
+  color: #444;
+  line-height: 1.4;
+  max-width: 100%;
+  background-color: #fff;
+  background-image: linear-gradient(rgba(4, 67, 48, 0.5), #f8f9fa);
+  background-size: cover;
+}
+
+/* #087f5b  #f8f9fa #e9ecef #0ff0ac*/
+/*******************************************************************/
+
+/* Container Styling */
+.main-container {
+  max-width: 90rem;
+  height: 100vh;
+}
+.header-section {
+  background-color: #044330;
+  padding: 2rem;
+}
+
+.to-do-container {
+  display: flex;
+}
+
+.to-do-inner-container {
+  display: flex;
+  gap: 2rem;
+}
+
+/*******************************************************************/
+
+/* Elements Styling */
+h1 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  font-size: 3rem;
+  color: #f7f7f7;
+}
+
+.add {
+  background-color: #f7f7f7;
+  padding: 0.63rem 1.2rem;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+.add:active {
+  background-color: #84bfad;
+  font-weight: bold;
+  font-style: italic;
+  color: #f9f9f9;
+}
+
+.text-input {
+  /* background-color: #f7f7f7; */
+  padding: 0.6rem 1.2rem;
+  justify-self: center;
+  align-self: center;
+  border: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  border: 0.1rem solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 1.5rem;
+}
+li:nth-last-child(even) {
+  background-color: #f8f9fa;
+}
+li:nth-last-child(odd) {
+  background-color: #e9ecef;
+}
+
+button {
+  background-color: #044330;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+.heading-background {
+  max-width: 100%;
+  margin: 1rem auto;
+  background-color: #044330;
+}
+
+.text-input {
+  flex-grow: 1;
+}
+
+.done-task {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+
+.set-margin {
+  margin: 0 auto;
+}
