@@ -43,11 +43,3 @@ textInput.addEventListener("keyup", (event) => {
     addToDo();
   }
 });
-
-const donetask = document.querySelector(".done-task");
-const checkbox = document.querySelectorAll('li input[type="checkbox"]');
-
-for (let i = 0; i < checkbox.length; i++)
-  checkbox[i].addEventListener("click", function () {
-    textInput.classList.add("donetask");
-  });
