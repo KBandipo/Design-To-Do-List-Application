@@ -17,22 +17,20 @@ body {
   line-height: 1.4;
   max-width: 100%;
   background-color: #fff;
-  background-image: linear-gradient(rgba(8, 127, 91, 0.589), #f8f9fa);
+  background-image: linear-gradient(rgba(4, 67, 48, 0.5), #f8f9fa);
   background-size: cover;
 }
 
-/* #087f5b  #f8f9fa #e9ecef*/
+/* #087f5b  #f8f9fa #e9ecef #0ff0ac*/
 /*******************************************************************/
 
 /* Container Styling */
 .main-container {
-  /* background-color: aquamarine; */
   max-width: 90rem;
-  /* background-color: #9cccbd; */
   height: 100vh;
 }
 .header-section {
-  background-color: #087f5b;
+  background-color: #044330;
   padding: 2rem;
 }
 
@@ -101,7 +99,7 @@ li:nth-last-child(odd) {
 }
 
 button {
-  background-color: #087f5b;
+  background-color: #044330;
   color: white;
   border: none;
   padding: 0.6rem 1rem;
@@ -114,7 +112,7 @@ button:hover {
 .heading-background {
   max-width: 100%;
   margin: 1rem auto;
-  background-color: #087f5b;
+  background-color: #044330;
 }
 
 .text-input {
