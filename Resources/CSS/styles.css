@@ -1,6 +1,5 @@
-"use strict";
 /*******************************************************************/
-
+/* General Styling */
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +21,9 @@ body {
 }
 
 /* #087f5b  #f8f9fa #e9ecef*/
-/* CONTAINER STYLING */
+/*******************************************************************/
+
+/* Container Styling */
 .main-container {
   /* background-color: aquamarine; */
   max-width: 90rem;
@@ -46,9 +47,9 @@ body {
   gap: 2rem;
 }
 
+/*******************************************************************/
 
-
-/* ELEMENTS STYLING */
+/* Elements Styling */
 h1 {
   text-align: center;
   margin: 0 auto;
